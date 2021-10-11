@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+.wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+@media (max-width: 900px) {
+    .wrapper{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 768px) {
+    .wrapper{
+        padding: 0px 20px;
+    }
+}
+
+
+
+
+.content{
+    position: relative;
+    top: 98px;
+}
+/*----------------BANER----------------*/
+.content_banner{
+    height: 440px;
+    background: url(../img/dude.png) 50% 0/cover no-repeat;
+}
+@media (max-width: 900px) {
+    .banner_wrapper{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    .content{
+        top: 64px;
+    }
+}
+
+.banner_text{
+    position: absolute;
+    height: 100px;
+    top: 140px;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_text h4{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+}
+
+.banner_text p{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+
+}
+.banner_text p:before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin: 0px 6px 5px 0px;
+}
+
+.banner_line{
+    width: 130px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.slider{
+    position: absolute;
+    top: 410px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.slider_center{
+    width: 130px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.slider_element{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    filter: drop-shadow(0px 0px 7px #FFFFFF);
+}
+
+.element1{
+    background-color: #5377a0;
+}
+.element2{
+    background-color: #2A3C51;
+}
