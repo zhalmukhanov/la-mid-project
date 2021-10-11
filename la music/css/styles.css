@@ -54,32 +54,60 @@ body{
 }
 
 .header{
-    height: 98px;
-    background: url('../img/header\ bg.jpg')   0 0/cover no-repeat;
+    
+    
+    background: #3C5674;
 
 }
 
 .header_main{
-    height: 63px;
+    height: 64px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .header_home{
-    margin-right: 96.32px;
+    margin-right: 94.32px;
 }
 
 .header_home img{
     height: 18px;
+    padding: 1px;
+}
+.header_home img:hover{
+    height: 20px;
+    padding: 0px;
 }
 
-.header_social img{
-    height: 18px;
+.header_icon1{
+    width: 18px;
+    padding: 1px;
+}
+.header_icon1:hover{
+    width: 20px;
+    padding: 0px;
 }
 
+.header_icon2{
+    width: 20px;
+    padding: 1px;
+}
+.header_icon2:hover{
+    width: 22px;
+    padding: 0px;
+}
+
+.header_icon3{
+    width: 24px;
+    padding: 1px;
+}
+.header_icon3:hover{
+    width: 26px;
+    padding: 0px;
+}
 .header_social a{
-    margin-right: 20px;
+    margin-right: 18px;
 }
 .header_social a:last-child{
     margin-right: 0;
@@ -87,10 +115,7 @@ body{
 
 .menu{
     height: 35px;
-    background:   rgba(0, 0, 0, 0.36);
-    position: relative;
-    bottom: 35px;
-
+    background: #2A3C51;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,5 +136,5 @@ body{
 }
 
 .menu_links a:hover{
-    color: rgb(89, 157, 245);
+    color: #639cdd;
 }
