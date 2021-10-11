@@ -48,16 +48,18 @@ body{
 }
 
 .wrapper{
-    max-width: 1200px;
+    max-width: 1170px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 100px;
 }
 
-.header{
-    
-    
-    background: #3C5674;
+/*=====================================
+                 HEADER
+=======================================*/
 
+/*---------------HEADER----------------*/
+.header{
+    background: #3C5674;
 }
 
 .header_main{
@@ -112,7 +114,7 @@ body{
 .header_social a:last-child{
     margin-right: 0;
 }
-
+/*---------------MENU----------------*/
 .menu{
     height: 35px;
     background: #2A3C51;
@@ -137,4 +139,82 @@ body{
 
 .menu_links a:hover{
     color: #639cdd;
+}
+
+
+/*=====================================
+                 CONTENT
+=======================================*/
+
+/*----------------BANER----------------*/
+.content_banner{
+    height: 440px;
+    background: url(../img/dude.png) 50% 0/cover no-repeat;
+}
+
+.banner_text{
+    position: absolute;
+    height: 100px;
+    top: 240px;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner_text h4{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+}
+
+.banner_text p{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+
+}
+.banner_text p:before{
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    margin: 0px 6px 5px 0px;
+}
+
+.banner_line{
+    width: 130px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+.slider{
+    position: absolute;
+    top: 510px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.slider_center{
+    width: 130px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.slider_element{
+    width: 60px;
+    height: 6px;
+    border-radius: 3px;
+    filter: drop-shadow(0px 0px 7px #FFFFFF);
+}
+
+.element1{
+    background-color: #5377a0;
+}
+.element2{
+    background-color: #2A3C51;
 }
