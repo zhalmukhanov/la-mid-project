@@ -45,6 +45,12 @@ table {
 
 body{
     font-family: 'Comfortaa', cursive;
+    display: flex;
+    flex-direction: column;
+
+}
+.content{
+    margin-top: 98px;
 }
 
 .wrapper{
@@ -58,6 +64,9 @@ body{
     }
 }
 @media (max-width: 768px) {
+    .content{
+        margin-top: 64px;
+    }
     .wrapper{
         padding: 0px 20px;
     }
@@ -271,4 +280,12 @@ body{
 
 .menu_links a:hover{
     color: #639cdd;
+}
+
+
+
+
+.footer{
+    height: 162px;
+    background: #414141;
 }

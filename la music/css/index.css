@@ -54,7 +54,7 @@ body{
 }
 @media (max-width: 900px) {
     .wrapper{
-        padding: 0 50px;
+        padding: 0 30px;
     }
 }
 @media (max-width: 768px) {
@@ -66,10 +66,7 @@ body{
 
 
 
-.content{
-    position: relative;
-    top: 98px;
-}
+
 /*----------------BANER----------------*/
 .content_banner{
     height: 440px;
@@ -79,20 +76,14 @@ body{
     .banner_wrapper{
         width: 100%;
         display: flex;
-        align-items: center;
         justify-content: center;
-    }
-}
-@media (max-width: 768px) {
-    .content{
-        top: 64px;
     }
 }
 
 .banner_text{
     position: absolute;
     height: 100px;
-    top: 140px;
+    top: 240px;
     font-family: 'Josefin Slab', serif;
     color: white;
 
@@ -132,7 +123,7 @@ body{
 
 .slider{
     position: absolute;
-    top: 410px;
+    top: 510px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -155,4 +146,318 @@ body{
 }
 .element2{
     background-color: #2A3C51;
+}
+@media (max-width: 768px) {
+    .slider{
+        top: 475px;
+    }
+}
+
+/*----------------NEWS----------------*/
+.content_news{
+    margin-top: 210px;
+}
+.news_main{
+    background: linear-gradient(162.64deg, #9CB5D1 25.29%, rgba(156, 181, 209, 0) 115.63%);
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+.news_container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.news_container h2{
+
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    letter-spacing: 0.035em;
+    margin: 45px 0px 15px 0;
+
+}
+.news{
+    flex: 1 1 auto;
+}
+
+.news a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+}
+.news a:hover{
+    color: #ffffff;
+}
+
+.news_container p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    margin:0px 0px 35px 0px;
+}
+
+.news_line{
+    width: 300px;
+    height: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    margin: 30px 0px;
+}
+
+
+.news_big {
+    position: relative;
+    top: -60px;
+}
+.news_big a{
+    text-decoration: none;
+    color: #000000;
+}
+.news_big a:hover{
+    color: #5377a0;
+}
+.news_img{
+    width: 645px;
+    height: 580px;
+    overflow: hidden;
+}
+
+.news_img img{
+    position: relative;
+    right: 90px;
+    height: 100%;
+}
+
+.big_text{
+    position: relative;
+    bottom: 100px;
+    margin-left: 180px;
+    width: 460px;
+    padding: 35px;
+    background-color: #fff;
+}
+.big_text p{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    
+}
+.big_text span{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.05em;
+    
+}
+
+@media (max-width: 1300px) {
+    .content_news{
+        margin-top: 150px;
+    }
+    .news_container{
+        width: 250px;
+    }
+    .news_container h2{
+        font-size: 20px;
+        margin: 35px 0px 10px 0;
+    
+    }
+    .news a{
+        font-size: 15px;
+    }
+    
+    .news_container p{
+        font-size: 12px;
+        line-height: 16px;
+        margin:0px 0px 30px 0px;
+    }
+    
+    .news_line{
+        width: 250px;
+        margin: 25px 0px;
+    }
+    
+    
+    .news_big {
+        top: -40px;
+    }
+    .news_img{
+        width: 545px;
+        height: 490px;
+    }
+    
+    .news_img img{
+        right: 75px;
+        height: 100%;
+    }
+    
+    .big_text{
+        bottom: 85px;
+        margin-left: 140px;
+        width: 395px;
+        padding: 25px;
+    }
+    .big_text p{
+        font-size: 14px;
+        
+    }
+    .big_text span{
+        font-size: 15px;]
+        
+    }
+     
+}
+@media (max-width: 1100px) {
+    .content_news{
+        margin-top: 100px;
+    }
+    .news_container{
+        width: 180px;
+    }
+    .news_container h2{
+        font-size: 15px;
+        margin: 25px 0px 10px 0;
+    
+    }
+    .news a{
+        font-size: 12px;
+    }    
+    .news_container p{
+        font-size: 10px;
+        line-height: 16px;
+        margin:0px 0px 15px 0px;
+    }
+    .news_line{
+        width: 180px;
+        margin: 15px 0px;
+    }
+    
+    
+    .news_big {
+        top: -40px;
+    }
+    .news_img{
+        width: 450px;
+        height: 405px;
+    }
+    
+    .news_img img{
+        right: 75px;
+        height: 100%;
+    }
+    
+    .big_text{
+        bottom: 75px;
+        margin-left: 115px;
+        width: 335px;
+        padding: 15px;
+    }
+    .big_text p{
+        font-size: 12px;
+        
+    }
+    .big_text span{
+        font-size: 13px;]
+        
+    }
+     
+}
+@media (max-width: 768px) {
+    .news_img{
+        width: 350px;
+        height: 315px;
+    }
+    
+    .news_img img{
+        right: 50px;
+        height: 100%;
+    }
+    
+    .big_text{
+        bottom: 0px;
+        margin-left: 0px;
+        width: 320px;
+        padding: 15px;
+    }
+    .big_text p{
+        font-size: 11px;
+        
+    }
+    .big_text span{
+        font-size: 12px;]
+        
+    }
+     
+}
+@media (max-width: 600px) {
+    .news_main{
+        flex-direction: column;
+    }
+    .content_news{
+        margin-top: 25px;
+    }
+    .news_container{
+        margin: 20px;
+        width: auto;
+        max-width: 100%;
+    }
+    .news_container h2{
+        font-size: 15px;
+        margin: 10px 0px 10px 0;
+    
+    }
+    .news a{
+        font-size: 12px;
+    }    
+    .news_container p{
+        display: none;
+    }
+    .news_line{
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+    
+    .news_big {
+        top: 0px;
+        padding: 20px;
+    }
+    .news_big a{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .news_img{
+        width: 100%;
+        height: auto;
+    }
+    .news_img img{
+        width: 100%;
+        height: auto;
+        right: 0;
+    }
+
+    .big_text{
+        bottom: 2px;
+        width: auto;
+        max-width: 100%;
+        padding: 15px;
+    }
+    .big_text p{
+        font-size: 11px;
+        
+    }
+    .big_text span{
+        font-size: 12px;]
+        
+    }
+     
 }
