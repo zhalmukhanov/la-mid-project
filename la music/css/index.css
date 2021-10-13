@@ -499,7 +499,7 @@ body{
 }
 
 .top{
-    margin-top: 30px;
+    margin: 30px 0px 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -507,7 +507,10 @@ body{
 
 .top_item{
     display: flex;
-    width: 31%;
+    flex: 0 1 30%;
+}
+.top_item img{
+    max-width: 40%;
 }
 .top_text{
     display: flex;
@@ -543,9 +546,6 @@ body{
     .top_header h2{
         font-size: 20px;
     }
-    .top_item img{
-        height: 110px ;
-    }
     .top_text{
         padding: 4px 0px 4px 15px;
     }
@@ -567,9 +567,6 @@ body{
     .top_header h2{
         font-size: 15px;
     }
-    .top_item img{
-        height: 90px ;
-    }
     .top{
         margin-top: 20px;
     }
@@ -580,8 +577,8 @@ body{
         font-size: 20px;
     }
     .top_text p{
-        font-size: 12px;
-        margin-top: 5px;
+        font-size: 11px;
+        margin-top: 0px;
     }
     .top_text a{
         font-weight: 300;
@@ -594,9 +591,6 @@ body{
 @media (max-width: 768px){
     .content_top{
         margin-top: 25px;
-    }
-    .top_header h2{
-        font-size: 15px;
     }
     .top_header p{
         font-size: 9px;
@@ -611,9 +605,6 @@ body{
     .top_item{
         width: 100%;
         height: 30%;
-    }
-    .top_item img{
-        height: 90px ;
     }
     .top{
         margin-top: 20px;
@@ -646,5 +637,178 @@ body{
 
 
 .content_artist{
-    margin-top: 100px;
+    margin: 100px 0px 250px 0px;
+}
+
+.artist_body{
+    padding: 35px;
+    height: 150px;
+    background: linear-gradient(166.76deg, #A7BDD5 16.28%, rgba(167, 189, 213, 0.00) 81.64%);
+}
+
+.artist_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.artist_header h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+}
+.artist_header p{
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.all_artists{
+    display: flex;
+    align-items: center;
+}
+.all_artists img{
+    margin-left: 9px;
+}
+.all_artists {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.artists{
+    top: 35px;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.artist_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 1 20%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.artist_item img{
+    max-width: 100%;
+}
+
+.artist_item h3{
+    margin-top: 35px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.artist_line{
+    width: 0;
+    height: 230px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1300px){
+    .artist_header h2{
+        font-size: 20px;
+    }
+}
+@media (max-width: 1100px){
+    .content_artist{
+        margin-bottom: 150px;
+    }
+    .artist_header h2{
+        font-size: 15px;
+    }
+    .artists{
+        bottom: 130px;
+    }
+    .artist_item h3{
+        margin-top: 25px;
+        font-size: 13px;
+    }
+    .artist_line{
+        height: 160px;
+    }
+}
+@media (max-width: 768px){
+    .content_artist{
+        margin-top: 25px;
+        margin-bottom: 250px;
+    }
+    .artist_body{
+        padding: 35px;
+        height: 430px;
+        background: linear-gradient(168deg, #A7BDD5 16.28%, rgba(167, 189, 213, 0) 81.64%);
+    }
+    .artists{
+        top: 0;
+        bottom: 430px;
+        flex-wrap:wrap;
+    }
+    .artist_item{
+        margin: 25px 0px;
+        flex: 0 1 45%;
+    }
+    .artist_header p{
+        font-size: 9px;
+    }
+    .artist_header img{
+        width: 18px;
+    }
+    .artist_item h3{
+        margin-top: 25px;
+        font-size: 13px;
+    }
+    .artist_line{
+        height: 200px;
+    }
+    .artist_line.line2{
+        flex: 0 1 100%;
+        height: 0px;
+        width: 500;
+    }
+}
+@media (max-width: 425px){
+
+    .content_artist{
+        margin-bottom: 50px;
+    }
+    
+    .artist_body{
+        height: 400px;
+        background: linear-gradient(168deg, #A7BDD5 16.28%, rgba(167, 189, 213, 0) 81.64%);
+    }
+    .artists{
+        bottom: 400px;
+        flex-wrap:wrap;
+    }
+    .artist_item{
+        margin: 25px 0px;
+        flex: 0 1 45%;
+    }
+    .artist_header h2{
+        padding-right: 10px;
+        line-height: 16px;
+    } 
+    .artist_header p{
+        font-size: 9px;
+        line-height: 8px;
+        text-align: end;
+    }
+    .artist_header img{
+        width: 15px;
+        margin-left: 5px;
+    }
+    .artist_item h3{
+        margin-top: 15px;
+        font-size: 10px;
+    }
+    .artist_line{
+        height: 150px;
+    }
+    .artist_line.line2{
+        flex: 0 1 100%;
+        height: 0px;
+        width: 500;
+    }
 }
