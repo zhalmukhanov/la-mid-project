@@ -283,9 +283,43 @@ body{
 }
 
 
-
+/*---------------FOOTER----------------*/
 
 .footer{
     height: 162px;
     background: #414141;
+    display: flex;
+    padding-left: 10%;
+    margin-top: 250px;
+    
 }
+.footer img{
+    margin-right: 138px;
+    padding-top: 32px;
+    width: 98px;
+    height: 98px;
+}
+
+.footer li{
+    text-decoration: none;
+    margin-right: 29px;
+    margin-top: 75px;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    display: inline-block;
+}
+.footer p{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    margin-right: 138px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+}
+
