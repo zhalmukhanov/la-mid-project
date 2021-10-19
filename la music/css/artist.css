@@ -71,13 +71,13 @@ body{
 }
 
 .wrapper{
-    max-width: 1170px;
+    max-width: 1370px;
     margin: 0 auto;
     padding: 0 100px;
 }
 @media (max-width: 900px) {
     .wrapper{
-        padding: 0 50px;
+        padding: 0 30px;
     }
 }
 @media (max-width: 768px) {

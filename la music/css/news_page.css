@@ -65,64 +65,75 @@ body{
 
 .content{
 	margin-top: 98px;
+    margin-bottom: 150px;
 	font-family: 'Comfortaa', cursive;
 	
 }
-.news{
-	margin-top: 5%;
-	margin-left: 215px;
-	height: 31px;
-	margin-bottom: 60px;
+
+.content h1{
+font-weight: bold;
+font-size: 32px;
+line-height: 110%;
+letter-spacing: 0.035em;
+color: #000000;
+margin: 150px 0 100px 0;
 }
-.badgest{
-	background-color: #4E6E93;
-	width: 150px;
-	height: 31px;
-	color: white;
-	font-style:normal;
-	font-weight: normal;
-	font-size: 16px;
-	padding-top: 6px;
-	padding-bottom: 6px;
-	padding-left: 19px;
-	padding-right: 19px;
-	margin-left: 11px;
+.news_text img{
+    width: 270px;
+    float: left;
+    padding: 0 20px 6px 0;
 }
-.cardst{
-	width: 1170px;
-	height: 160px;
-	margin-left: 215px;
-	margin-bottom: 16px;
-	box-shadow: 0px 3px 30px rgba(26, 26, 26, 0.2);
+.news_text p{
+    font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+
+color: #000000;
 }
-.card_img{
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	width: 160px;
-	height: 120px;
-	border-radius: 0px;
-	margin-right: 30px;
+
+@media (max-width: 768px) {
+
+.content h1{
+    margin: 50px 0 70px 0;
+
+    font-size: 28px;
+    }
+    .news_text p{
+        font-size: 14px;
+        line-height: 150%;
+        
+        color: #000000;
+        }
 }
-.card_title{
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 20px;
-	margin-bottom: 16px;
+@media (max-width: 425px) {
+
+    .content h1{
+        margin: 0 0 25px 0;
+        font-size: 25px;
+    }
+    .news_text img{
+        width: 100%;
+        float: none;
+        padding: 0 0 20px 0;
+    }
+        .news_text p{
+        font-size: 13px;
+    }
 }
-.card_text{
-	font-style: normal;
-	font-weight: normal;
-	font-size: 16px;
-	width: 550px;
-	
-}
-.card_smalltext{
-	font-size: 11px;
-	width: 165px;
-	margin-left: 790px;
-	margin-top: -48px;
-	
-	
+@media (max-width: 320px) {
+
+    .content h1{
+        margin: 15px 0 25px 0;
+        font-size: 22px;
+    }
+    .news_text img{
+        width: 100%;
+        float: none;
+        padding: 0 0 15px 0;
+    }
+        .news_text p{
+        font-size: 11px;
+    }
 }
