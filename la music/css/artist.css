@@ -41,30 +41,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-h1{
-	color: white;	
-	font-style: normal;	
-	font-weight: bold;
-	font-size: 32px;
-	line-height: 36px;
-	letter-spacing: 0.035em;
-	padding-top: 43px;
-	margin-left: 215px;
-}
-h2{
-	color: white;	
-	font-style: normal;
-	font-weight: bold;
-	font-size: 24px;
-	line-height: 27px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.035em;
-	padding-top: 107px;
-	padding-left: 71px;
-}
-
 
 body{
     font-family: 'Comfortaa', cursive;
@@ -85,66 +61,168 @@ body{
         padding: 0px 20px;
     }
 }
-
-.dude{
-	width: 100%;
-	height: 230px;
-	background-color: #7899AC;
-	margin-top: 60px;
+.content{
 	margin-bottom: 100px;
 }
-.dude_img{
-	width: 270px;
-	height: 260px;
-	margin-left: 215px;
-	margin-top: 68px;
-	display: flex;
-}
-.dude_h1{
-	color: #324861;
-	font-style: normal;	
-	font-weight: bold;
-	font-size: 32px;
-	line-height: 36px;
-	display: flex;
-	align-items: center;
-	text-align: center;
-	padding-left: 30px;
-	letter-spacing: 0.035em;
-}
 
-.cardst{
-	width: 1170px;
-	height: 160px;
-	margin-left: 215px;
-	margin-bottom: 16px;
-	box-shadow: 0px 3px 30px rgba(26, 26, 26, 0.2);
+.dude_rec{
+    background-color: #7899AC;
+	height: 230px;
+	margin-bottom: 250px;
+	margin-top: 60px;
 }
-.card_img{
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px;
-	width: 160px;
-	height: 120px;
-	border-radius: 0px;
+.art_text{
+    padding-bottom: 40px;
+	padding-top: 20px;
+}
+.artist_h1{
+    font-family: Comfortaa;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+}
+@media (max-width: 768px) {
+	.artist_h1{
+		font-size: 28px;
+	}
+}
+@media (max-width: 520px) {
+	.artist_h1{
+		font-size: 26px;
+	}
+}
+@media (max-width: 426px) {
+	.artist_h1{
+		font-size: 22px;
+	}
+}
+.dude{
+    display: flex;
+    align-items: center;
+}
+@media (max-width: 426px) {
+	.dude{
+		flex-direction: column;
+
+	}
+}
+.dude_img{
+    width: 270px;
+    height: auto;
 	margin-right: 30px;
 }
+@media (max-width: 768px) {
+	.dude_img{
+		width: 200px;
+		height: auto;
+		margin-right: 30px;
+	}
+}
+@media (max-width: 520px) {
+	.dude_img{
+		width: 180px;
+		height: auto;
+		margin-right: 30px;
+	}
+}
+@media (max-width: 426px) {
+	.dude_img{
+		width: 260px;
+		height: auto;
+	}
+}
+
+.dude h2{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.035em;
+    color: #FFFFFF;
+	padding-bottom: 30px;
+	padding-top: 30px;
+} 
+@media (max-width: 768px) {
+	.dude h2{
+		font-size: 20px;
+		padding-bottom: 10px;
+		padding-top: 100px;
+	}
+}
+@media (max-width: 520px) {
+	.dude h2{
+		font-size: 16px;
+		padding-bottom: 10px;
+		padding-top: 120px;
+	}
+}
+@media (max-width: 426px) {
+	.dude h2{
+		font-size: 16px;
+		padding-top: 20px;
+		color: #324861;
+	}
+}
+
+.dude h1{
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.035em;
+    color: #324861;
+}
+
+@media (max-width: 768px) {
+	.dude h1{
+		font-size: 28px;
+	}
+}
+@media (max-width: 520px) {
+	.dude h1{
+		font-size: 18px;		
+	}
+}
+@media (max-width: 426px) {
+	.dude h1{
+		font-size: 18px;
+	}
+}
+
+.card{
+	border-radius: 0px;
+	box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card_img{
+	width: 120px;
+	height: 100px;
+	margin: 13px;
+}
+.card_body{
+	margin: 28px;
+}
+
 .card_title{
+	font-family: Comfortaa;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 18px;
-	line-height: 20px;
-	margin-bottom: 16px;
+	font-size: 16px;
+	margin-bottom: 10px;
+	
 }
 .card_text{
+	font-family: Comfortaa;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 16px;
-	width: 550px;
+	font-size: 10px;
+	margin-bottom: 25px;
 	
 }
 .card_smalltext{
-	font-size: 11px;
-	width: 165px;
-
+	text-decoration-line: underline;
+	font-style: normal;
+	font-size: 8px;
 }
+
