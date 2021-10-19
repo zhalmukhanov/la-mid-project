@@ -41,6 +41,29 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h1{
+	color: white;	
+	font-style: normal;	
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 36px;
+	letter-spacing: 0.035em;
+	padding-top: 43px;
+	margin-left: 215px;
+}
+h2{
+	color: white;	
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 27px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.035em;
+	padding-top: 107px;
+	padding-left: 71px;
+}
 
 
 body{
@@ -61,4 +84,67 @@ body{
     .wrapper{
         padding: 0px 20px;
     }
+}
+
+.dude{
+	width: 100%;
+	height: 230px;
+	background-color: #7899AC;
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+.dude_img{
+	width: 270px;
+	height: 260px;
+	margin-left: 215px;
+	margin-top: 68px;
+	display: flex;
+}
+.dude_h1{
+	color: #324861;
+	font-style: normal;	
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 36px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	padding-left: 30px;
+	letter-spacing: 0.035em;
+}
+
+.cardst{
+	width: 1170px;
+	height: 160px;
+	margin-left: 215px;
+	margin-bottom: 16px;
+	box-shadow: 0px 3px 30px rgba(26, 26, 26, 0.2);
+}
+.card_img{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	width: 160px;
+	height: 120px;
+	border-radius: 0px;
+	margin-right: 30px;
+}
+.card_title{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 16px;
+}
+.card_text{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	width: 550px;
+	
+}
+.card_smalltext{
+	font-size: 11px;
+	width: 165px;
+
 }

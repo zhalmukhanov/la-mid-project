@@ -286,24 +286,22 @@ body{
 /*---------------FOOTER----------------*/
 
 .footer{
-    height: 162px;
     background: #414141;
+    width: 100%;
+}
+.footer_main{
+    height: 162px;
     display: flex;
-    padding-left: 10%;
-    margin-top: 250px;
-    
+    align-items: center;
+    justify-content: space-between;
 }
 .footer img{
-    margin-right: 138px;
-    padding-top: 32px;
     width: 98px;
     height: 98px;
 }
 
 .footer li{
     text-decoration: none;
-    margin-right: 29px;
-    margin-top: 75px;
     color: white;
     font-family: 'Comfortaa', cursive;
     font-weight: bold;
@@ -312,9 +310,6 @@ body{
     display: inline-block;
 }
 .footer p{
-    padding-top: 75px;
-    padding-bottom: 75px;
-    margin-right: 138px;
     text-decoration: none;
     color: white;
     font-family: 'Comfortaa', cursive;
