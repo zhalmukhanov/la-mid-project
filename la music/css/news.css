@@ -48,13 +48,13 @@ body{
 }
 
 .wrapper{
-    max-width: 1370px;
+    max-width: 1170px;
     margin: 0 auto;
     padding: 0 100px;
 }
 @media (max-width: 900px) {
     .wrapper{
-        padding: 0 30px;
+        padding: 0 50px;
     }
 }
 @media (max-width: 768px) {
@@ -64,13 +64,13 @@ body{
 }
 
 .content{
+	margin-bottom: 100px;
 	margin-top: 98px;
 	font-family: 'Comfortaa', cursive;
 	
 }
 .news{
 	margin-top: 5%;
-	margin-left: 215px;
 	height: 31px;
 	margin-bottom: 60px;
 }
@@ -88,41 +88,118 @@ body{
 	padding-right: 19px;
 	margin-left: 11px;
 }
-.cardst{
-	width: 1170px;
-	height: 160px;
-	margin-left: 215px;
-	margin-bottom: 16px;
-	box-shadow: 0px 3px 30px rgba(26, 26, 26, 0.2);
+h1{
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 0.035em;
+}
+
+.content a{
+	text-decoration: none;
+	color: black;
+}
+.card{
+	border-radius: 0px;
+	box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.2);
+}
+.display{
+	display: flex;
+}
+
+@media (max-width: 940px) {
+	.display{
+		flex-direction: column;
+	}
+}
+@media (max-width: 690px) {
+	.display{
+		flex-direction: column;
+	}
 }
 .card_img{
-	margin-top: 20px;
-	margin-bottom: 20px;
-	margin-left: 20px;
+	margin: 20px;
+	margin-right: 30px;
 	width: 160px;
 	height: 120px;
 	border-radius: 0px;
-	margin-right: 30px;
+}
+.col-sm-3 {
+	padding-right: 0;
+}
+.col-sm-9, .card-body{
+	padding-left: 0;
+}
+@media (max-width: 940px) {
+    .card_img{
+		width: 240px;
+		height: 190px;
+	}
+}
+@media (max-width: 690px) {
+    .card_img{
+	width: 240px;
+	height: 200px;
+	}
+}
+@media (max-width: 310px) {
+    .card_img{
+	width: 140px;
+	height: 120px;
+	}
+}
+@media (max-width: 940px) {
+    .card_title{
+	font-size: 16px;
+	padding-left: 30px;
+	}
 }
 .card_title{
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
-	line-height: 20px;
 	margin-bottom: 16px;
 }
+
+@media (max-width: 690px) {
+    .card_title{
+	font-size: 16px;
+
+	}
+}
+
 .card_text{
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
-	width: 550px;
-	
+	margin-bottom: 20px;
+}
+@media (max-width: 940px) {
+    .card_text{
+	font-size: 16px;
+	padding-left: 30px;
+	}
+}
+@media (max-width: 690px) {
+    .card_text{
+	font-size: 14px;
+	}
 }
 .card_smalltext{
 	font-size: 11px;
-	width: 165px;
-	margin-left: 790px;
-	margin-top: -48px;
+	float: right;
 	
-	
+}
+@media (max-width: 940px) {
+    .card_smalltext{
+	font-size: 16px;
+	padding-left: 30px;
+	float: none;
+	}
+}
+@media (max-width: 690px) {
+    .card_smalltext{
+	font-size: 9px;
+	float: none;
+	}
 }
