@@ -196,14 +196,26 @@ body{
 }
 
 .card_img{
-	width: 120px;
-	height: 100px;
-	margin: 13px;
-}
-.card_body{
-	margin: 28px;
+	width: 130px;
+	height: 100%;
+	margin-right: 40px;
 }
 
+
+
+.card-body{
+	padding-left: 30px;
+}
+@media (max-width: 1000px) {
+	.card-body{
+	padding-left: 40px;
+	}
+}
+@media (max-width: 575px) {
+	.card-body{
+	padding-left: 5px;
+	}
+}
 .card_title{
 	font-family: Comfortaa;
 	font-style: normal;
