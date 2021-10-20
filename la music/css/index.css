@@ -497,6 +497,10 @@ body{
     font-size: 12px;
     line-height: 13px;
 }
+.all_top:hover {
+    color: #fff;
+    text-decoration: underline;
+}
 
 .top{
     margin: 30px 0px 20px 0px;
@@ -529,11 +533,14 @@ body{
     flex: 1 1 auto;
 }
 .top_text a{
+    text-decoration: none;
     font-weight: 30;
     font-size: 11px;
     line-height: 12px;
     color: #fff;
-    text-decoration-line: underline;
+}
+.top_text a:hover{
+    text-decoration: underline;
 }
 
 .top_line{
@@ -674,6 +681,9 @@ body{
     font-weight: 300;
     font-size: 12px;
     line-height: 13px;
+}
+.all_artists:hover {
+    text-decoration: underline;
 }
 
 .artists{
