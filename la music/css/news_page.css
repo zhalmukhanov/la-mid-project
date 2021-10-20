@@ -1,0 +1,139 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+body{
+    font-family: 'Comfortaa', cursive;
+}
+
+.wrapper{
+    max-width: 1370px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+@media (max-width: 900px) {
+    .wrapper{
+        padding: 0 30px;
+    }
+}
+@media (max-width: 768px) {
+    .wrapper{
+        padding: 0px 20px;
+    }
+}
+
+.content{
+	margin-top: 98px;
+    margin-bottom: 150px;
+	font-family: 'Comfortaa', cursive;
+	
+}
+
+.content h1{
+font-weight: bold;
+font-size: 32px;
+line-height: 110%;
+letter-spacing: 0.035em;
+color: #000000;
+margin: 150px 0 100px 0;
+}
+.news_text img{
+    width: 270px;
+    float: left;
+    padding: 0 20px 6px 0;
+}
+.news_text p{
+    font-family: Comfortaa;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+
+color: #000000;
+}
+
+@media (max-width: 768px) {
+
+.content h1{
+    margin: 50px 0 70px 0;
+
+    font-size: 28px;
+    }
+    .news_text p{
+        font-size: 14px;
+        line-height: 150%;
+        
+        color: #000000;
+        }
+}
+@media (max-width: 425px) {
+
+    .content h1{
+        margin: 0 0 25px 0;
+        font-size: 25px;
+    }
+    .news_text img{
+        width: 100%;
+        float: none;
+        padding: 0 0 20px 0;
+    }
+        .news_text p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 320px) {
+
+    .content h1{
+        margin: 15px 0 25px 0;
+        font-size: 22px;
+    }
+    .news_text img{
+        width: 100%;
+        float: none;
+        padding: 0 0 15px 0;
+    }
+        .news_text p{
+        font-size: 11px;
+    }
+}
